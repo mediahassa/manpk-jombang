@@ -538,8 +538,10 @@ a {
 ========================================= */
 
 @media (max-width: 1050px) {
+  @media (max-width: 1050px) {
   .nav-container {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
   }
 

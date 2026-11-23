@@ -380,13 +380,15 @@ a {
   margin-bottom: 22px;
 }
 
+
 .about-text h2 {
-  color: var(--green);
+  color: var(--green-dark);
   font-size: clamp(27px, 3vw, 40px);
   line-height: 1.25;
   font-weight: normal;
   margin-bottom: 20px;
 }
+
 
 .about-text > p:not(.section-label) {
   color: #555E53;

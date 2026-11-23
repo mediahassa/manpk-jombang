@@ -347,14 +347,12 @@ a {
   padding: 16px 22px;
   background: var(--green-dark);
   border: 1px solid var(--gold);
-  color: var(--gold-light);
+  color: var(--gold);
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 11px;
   letter-spacing: 2px;
 }
-
-.hero-caption span {
   padding: 0 8px;
 }
 

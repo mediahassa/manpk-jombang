@@ -429,14 +429,15 @@ a {
   place-items: center;
   padding: 20px;
   text-align: center;
-  color: var(--green);
-  background: #E3DDCD;
-  border: 1px solid var(--gold);
+  color: var(--green-dark);
+  background: #E8F1E9;
+  border: 1px solid var(--green);
   border-radius: 100px 0 0 0;
   font-family: Arial, sans-serif;
   font-size: 12px;
   letter-spacing: 1px;
 }
+
 
 /* About values */
 

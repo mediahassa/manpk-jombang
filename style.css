@@ -320,8 +320,11 @@ a {
   justify-content: center;
   text-align: center;
   color: var(--white);
-  background:
-    linear-gradient(135deg, #174D32, #78906C);
+  background: linear-gradient(
+    135deg,
+    var(--green-dark),
+    var(--green-light)
+  );
 }
 
 .image-placeholder span {

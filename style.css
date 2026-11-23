@@ -241,6 +241,7 @@ a {
   margin-bottom: 28px;
 }
 
+
 .hero-button {
   display: inline-flex;
   align-items: center;
@@ -248,10 +249,21 @@ a {
   background: var(--gold);
   color: var(--green-dark);
   padding: 14px 25px;
-  border-radius: 30px;
+  border-radius: 8px;
   font-size: 14px;
+  font-weight: bold;
   transition: 0.3s ease;
 }
+
+.hero-button:hover {
+  background: var(--gold-light);
+  transform: translateY(-3px);
+}
+
+.hero-button span {
+  font-size: 20px;
+}
+
 
 .hero-button:hover {
   background: var(--gold-light);

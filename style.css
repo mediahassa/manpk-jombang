@@ -482,7 +482,7 @@ a {
   color: var(--white);
   text-align: center;
   padding: 45px 20px;
-  border-top: 2px solid var(--gold);
+  border-top: 3px solid var(--gold);
 }
 
 .footer-content h3 {

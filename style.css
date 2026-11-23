@@ -372,13 +372,14 @@ a {
 }
 
 .section-label {
-  color: #A78335;
+  color: var(--green);
   font-family: Arial, sans-serif;
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 22px;
 }
+
 
 
 .about-text h2 {

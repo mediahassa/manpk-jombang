@@ -3,17 +3,24 @@
    MANPK JOMBANG — ELEGANT EDITORIAL DESIGN
 ========================================= */
 
+
 :root {
-  --green: #073D25;
-  --green-light: #145638;
-  --green-dark: #042D1C;
-  --gold: #C5A34A;
-  --gold-light: #E2C77D;
-  --cream: #F5F0E3;
-  --white: #FFFDF7;
-  --dark: #1D3025;
-  --gray: #777D73;
+  /* IDENTITAS WARNA MANPK */
+  --green: #0F7C39;
+  --green-light: #168B45;
+  --green-dark: #014E27;
+
+  /* AKSEN KUNING */
+  --gold: #FEED09;
+  --gold-light: #FFF36A;
+
+  /* WARNA NETRAL */
+  --cream: #F7F8F3;
+  --white: #FFFFFF;
+  --dark: #183B29;
+  --gray: #747D75;
 }
+
 
 * {
   margin: 0;

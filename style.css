@@ -2,7 +2,13 @@
 /* =========================================
    MANPK JOMBANG — ELEGANT EDITORIAL DESIGN
 ========================================= */
-
+.navbar {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  background: var(--green-dark);
+  border-bottom: 2px solid var(--gold);
+}
 
 :root {
   /* IDENTITAS WARNA MANPK */

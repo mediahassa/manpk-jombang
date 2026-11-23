@@ -1,0 +1,187 @@
+
+/* =========================
+   WARNA UTAMA MANPK JOMBANG
+========================= */
+
+:root {
+  --green: #0F7C39;
+  --yellow: #FEED09;
+  --white: #FFFFFF;
+  --light: #F5F7F5;
+  --dark: #222222;
+}
+
+/* =========================
+   PENGATURAN DASAR
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--white);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+  width: 100%;
+  background: var(--white);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 18px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: var(--green);
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--green);
+}
+
+/* =========================
+   HALAMAN BERANDA
+========================= */
+
+main {
+  min-height: 75vh;
+}
+
+#beranda {
+  min-height: 550px;
+  padding: 100px 10%;
+  background: linear-gradient(
+    120deg,
+    #0F7C39,
+    #075528
+  );
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+#beranda::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 45px solid rgba(254,237,9,0.18);
+  border-radius: 50%;
+  right: -80px;
+  bottom: -120px;
+}
+
+#beranda h1 {
+  max-width: 750px;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+#beranda p {
+  max-width: 600px;
+  font-size: 19px;
+  color: #F3F3F3;
+}
+
+#beranda h1::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 5px;
+  background: var(--yellow);
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background: #064A27;
+  color: var(--white);
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 18px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  #beranda {
+    min-height: 450px;
+    padding: 65px 25px;
+  }
+
+  #beranda h1 {
+    font-size: 34px;
+  }
+
+  #beranda p {
+    font-size: 16px;
+  }
+}

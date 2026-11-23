@@ -200,14 +200,16 @@ a {
   animation: revealText 1s ease both;
 }
 
+
 .eyebrow {
-  color: var(--gold-light);
+  color: var(--gold);
   font-family: Arial, sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
   line-height: 1.8;
   margin-bottom: 25px;
 }
+
 
 .hero h1 {
   color: var(--white);

@@ -336,7 +336,7 @@ a {
   font-family: Arial, sans-serif;
   font-size: 12px;
   margin-top: 12px;
-  color: #E6E8DF;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .hero-caption {

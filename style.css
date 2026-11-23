@@ -157,12 +157,13 @@ a {
 
 /* Geometric pattern */
 
+
 .hero-pattern {
   position: absolute;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.14;
+  opacity: 0.09;
   background-image:
     repeating-linear-gradient(
       45deg,

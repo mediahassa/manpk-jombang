@@ -296,17 +296,20 @@ a {
   position: relative;
   z-index: 1;
   width: 100%;
+  max-width: 540px;
   min-width: 0;
-  padding: 0 0 40px 20px;
+  justify-self: end;
+  padding: 0 0 30px 10px;
   animation: revealImage 1.3s ease both;
 }
 
 .hero-image {
   width: 100%;
+  max-width: 480px;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border: 1px solid rgba(226, 199, 125, 0.8);
-  border-radius: 160px 0 0 0;
+  border-radius: 120px 0 0 0;
   background: var(--green-light);
 }
 
@@ -353,8 +356,6 @@ a {
   font-size: 11px;
   letter-spacing: 2px;
 }
-  padding: 0 8px;
-}
 
 /* =========================================
    4. ABOUT SECTION
@@ -362,16 +363,15 @@ a {
 
 .about-section {
   width: 100%;
-  min-height: 390px;
-  padding: 75px 6%;
+  min-height: 450px;
+  padding: 95px 8%;
   display: grid;
   grid-template-columns: 1.2fr 0.9fr 0.7fr;
   align-items: center;
-  gap: 32px;
+  gap: 48px;
   position: relative;
   background: var(--cream);
 }
-
 .section-label {
   color: var(--green);
   font-family: Arial, sans-serif;
@@ -538,7 +538,6 @@ a {
 ========================================= */
 
 @media (max-width: 1050px) {
-  @media (max-width: 1050px) {
   .nav-container {
     flex-direction: row;
     justify-content: space-between;
@@ -548,7 +547,16 @@ a {
   .main-nav ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    padding: 55px 5%;
+  }
+
+  .hero-visual {
+    padding: 0 0 35px 10px;
   }
 
   .about-section {
@@ -565,6 +573,7 @@ a {
 
 @media (max-width: 700px) {
   .nav-container {
+    flex-direction: column;
     padding: 18px 5%;
   }
 
@@ -590,13 +599,25 @@ a {
     line-height: 1.15;
   }
 
-  .hero-visual {
-    padding: 0 0 35px 10px;
-  }
+.hero-visual {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 620px;
+  min-width: 0;
+  justify-self: end;
+  padding: 0 0 40px 20px;
+  animation: revealImage 1.3s ease both;
+}
 
-  .hero-image {
-    border-radius: 90px 0 0 0;
-  }
+ .hero-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid rgba(226, 199, 125, 0.8);
+  border-radius: 160px 0 0 0;
+  background: var(--green-light);
+}
 
   .hero-caption {
     width: 85%;

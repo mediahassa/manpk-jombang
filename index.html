@@ -4,36 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website resmi MANPK Jombang">
+  <meta name="description" content="Portal informasi MANPK Jombang">
   <title>Beranda | MANPK Jombang</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <nav>
-      <h2>MANPK JOMBANG</h2>
-      <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="dokumentasi.html">Dokumentasi & Kegiatan</a></li>
-        <li><a href="berita.html">Berita & Pengumuman</a></li>
-        <li><a href="galeri.html">Galeri</a></li>
-      </ul>
-    </nav>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">MANPK<span>.</span></a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="dokumentasi.html">Dokumentasi</a></li>
+          <li><a href="berita.html">Berita & Pengumuman</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- HERO -->
   <main>
-    <section id="beranda">
-      <h1>Selamat Datang di MANPK Jombang</h1>
-      <p>
-       Cendekia Ulama, Ulama Cendekia
-      </p>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">MADRASAH ALIYAH NEGERI PROGRAM KEAGAMAAN</p>
+
+        <h1>
+          Membangun Generasi
+          <span>Cendekia.</span>
+        </h1>
+
+        <p class="hero-description">
+          Cendekia Ulama, Ulama Cendekia.
+          Menumbuhkan generasi berilmu, berakhlak,
+          dan siap menghadapi perkembangan zaman.
+        </p>
+
+        <a href="profil.html" class="hero-button">
+          Mengenal MANPK
+        </a>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-placeholder">
+          <span>FOTO MANPK</span>
+          <p>Foto lingkungan atau gedung sekolah</p>
+        </div>
+        <div class="hero-caption">
+          <span>MANPK JOMBANG</span>
+          <span>EST. —</span>
+        </div>
+      </div>
     </section>
+
+    <!-- INTRODUCTION -->
+    <section class="introduction">
+      <div class="section-label">01 — TENTANG KAMI</div>
+      <div class="introduction-content">
+        <h2>Pendidikan, keilmuan, dan karakter dalam satu perjalanan.</h2>
+        <p>
+          MANPK Jombang merupakan lingkungan pendidikan
+          yang mengintegrasikan pendalaman ilmu keislaman
+          dengan wawasan keilmuan dan perkembangan zaman.
+        </p>
+      </div>
+    </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2026 MANPK Jombang. All Rights Reserved.</p>
+    <p>&copy; 2026 MANPK Jombang.</p>
   </footer>
 
 </body>

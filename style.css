@@ -787,3 +787,24 @@ a {
   font-weight: 800;
   white-space: nowrap;
 }
+/* JUDUL PRESTASI UNGGULAN */
+
+.featured-heading {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 0 45px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.featured-heading h1 {
+  font-size: clamp(36px, 4vw, 52px);
+  line-height: 1.15;
+  margin: 0 0 18px;
+}
+
+.featured-heading p {
+  max-width: 540px;
+  line-height: 1.8;
+  margin: 0;
+}
